@@ -2,14 +2,16 @@ import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 const Hero = () => {
   return (
-    <section className="bg-emerald-100 py-24">
+    <section className="bg-emerald-100 py-24 overflow-x-hidden">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className="text-7xl font-bold tracking-wider">I'm Mohamed</h1>
-          <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider break-words">
+            I'm Mohamed
+          </h1>
+          <p className="mt-4 text-xl sm:text-2xl md:text-3xl text-slate-700 capitalize tracking-wide">
             Front-end developer
           </p>
-          <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
+          <p className="mt-2 text-base sm:text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
