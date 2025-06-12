@@ -6,7 +6,7 @@ Welcome to my **personal portfolio website** built with modern frontend tools an
 
 ## 📸 Demo
 
-🔗 [Live Demo](#) <!-- Replace with your actual demo link when ready -->
+🔗 [Live Demo](https://mohamed-esmat-portfolio.netlify.app/)
 
 ---
 
@@ -39,17 +39,18 @@ Welcome to my **personal portfolio website** built with modern frontend tools an
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
+│   │   ├── About.jsx
 │   │   ├── Hero.jsx
 │   │   ├── Projects.jsx
 │   │   ├── ProjectsCard.jsx
-│   │   └── Skills.jsx
+│   │   ├── Skills.jsx
+│   │   └── SkillsCard.jsx
 │   ├── hooks/
 │   │   └── fetchProjects.jsx
 │   ├── App.jsx
 │   └── main.jsx
-├── tailwind.config.js
 └── index.html
 ```
 
@@ -66,8 +67,8 @@ Welcome to my **personal portfolio website** built with modern frontend tools an
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/Mohamed-Esmat/Mohamed-Esmat-Portfolio-TailwindCSS.git
+cd Mohamed-Esmat-Portfolio-TailwindCSS
 npm install
 npm run dev
 ```
@@ -79,9 +80,9 @@ npm run dev
 **Mohamed Esmat AbdElHafiz**
 Frontend Developer | Passionate about React, UI/UX, and building intuitive web interfaces.
 
-- 🌐 [LinkedIn](https://linkedin.com/in/YOUR_USERNAME)
-- 🐱 [GitHub](https://github.com/YOUR_USERNAME)
-- ✉️ Email: [you@example.com](mailto:you@example.com)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/mohamed-esmat-abdalhafiz-frontend-developer/)
+- 🐱 [GitHub](https://github.com/Mohamed-Esmat)
+- ✉️ Email: [msmt0452@gmail.com](mailto:msmt0452@gmail.com)
 
 ---
 
